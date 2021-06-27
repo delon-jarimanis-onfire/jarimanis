@@ -1,0 +1,176 @@
+header {
+    width: 100%;
+    background-color: #ff0089;
+
+    .navbar-brand span {
+        font-size: 30px;
+        font-weight: 1000;
+        color: #ffffff;
+    }
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+
+    .navbar-brand span {
+        font-size: 30px;
+        font-weight: 1000;
+        color: #ff0089;
+    }
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.hero {
+    min-height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.text-hero {
+    font-size: 18px;
+    color: #202020;
+    line-height: 30px;
+}
+
+.btn-shop {
+    width: 175px;
+    height: 45px;
+    background-color: #ff4bb0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 750;
+    color: #ffffff;
+}
+
+.icons-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        i {
+            margin-right: 10px;
+            color: #202020;
+        }
+
+        h6 {
+            font-size: 30px;
+            color: #ff0089;
+
+            span {
+                font-size: 20px;
+                color: #202020;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.hero-img img {
+    height: 600px;
+}
+
+.item-special {
+    position: relative;
+    height: 276px;
+
+    .card {
+        background-color: transparent;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .img-special {
+        position: relative;
+        bottom: 0;
+    }
+
+    .desc-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .name-star {
+            p.name-product {
+                font-size: 18px;
+                font-weight: 500;
+                color: #ff0089;
+            }
+        }
+
+        .disc-price {
+            .disc {
+                font-size: 13px;
+                color: #202020;
+            }
+
+            .price {
+                font-size: 16px;
+                color: #202020;
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 2px solid black;
+    padding-top: 50px;
+    margin-top: 200px;
+
+    span.brand {
+        font-size: 26px;
+        font-weight: 700;
+        color: #ff0089;
+    }
+
+    .brand-tagline {
+        margin-top: 8px;
+        color: #000000;
+        font-weight: 300;
+    }
+
+    .list-group-item {
+        padding: 0.3125rem 0;
+        border: 0;
+        background-color: transparent;
+        color: #000000;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .copyrights {
+        margin: 50px 0;
+        font-weight: 300;
+        color: #000000;
+    }
+}
